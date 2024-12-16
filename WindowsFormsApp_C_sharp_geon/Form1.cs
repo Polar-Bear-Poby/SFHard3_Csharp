@@ -17,17 +17,17 @@ namespace WindowsFormsApp_C_sharp_geon
             InitializeComponent();
             textBox_print.Text = "241216 3교시";
             byte days_of_80 = 81;
-            // 80일 세계 일주 실제 시간
+            // 80일 세계 일주 실제 시간(일)
             short sfhard_training_session = 6;
             // 오늘 교육 차수
             int soldiers_of_spartans = 300;
-            // 영화 300에 나온 스파트타 군대 수
+            // 영화 300에 나온 스파트타 군대 수 (명)
             float my_height = 180.6f;
-            // 나의 키
+            // 나의 키 (cm)
             double korean_war_deaths = 3000000;
-            //한국 전쟁 때 사망자 수
+            //한국 전쟁 때 사망자 수 (명_
             decimal us_national_debt = 33000000000000;
-
+            // 미국 부채 규모($)
             textBox_print.Text = days_of_80.GetType().ToString() + " days_of_80: " + days_of_80 + "\r\n";
             textBox_print.Text += sfhard_training_session.GetType().ToString() + " sfhard_training_session: " + sfhard_training_session + "\r\n";
             textBox_print.Text += soldiers_of_spartans.GetType().ToString() + " soldiers_of_spartans: " + soldiers_of_spartans + "\r\n";
