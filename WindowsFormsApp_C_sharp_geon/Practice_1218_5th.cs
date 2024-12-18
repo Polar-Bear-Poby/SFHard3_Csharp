@@ -15,19 +15,13 @@ namespace WindowsFormsApp_C_sharp_geon
         public Practice_1218_5th()
         {
             InitializeComponent();
-            textBox_result.Text = "241218 5교시" + "\r\n";
-
+            
 
         }
 
         private void button_input_Click(object sender, EventArgs e)
         {
-            textBox_result.Text += "완료!";
-        }
-
-        private void Practice_1218_5th_Load(object sender, EventArgs e)
-        {
-
+            textBox_result.Text = textBox_input.Text;
         }
     }
 }
