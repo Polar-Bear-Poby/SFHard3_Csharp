@@ -49,6 +49,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Practice_1218_3rd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Practice_1218_3rd.Designer.cs">
+      <DependentUpon>Practice_1218_3rd.cs</DependentUpon>
+    </Compile>
     <Compile Include="Practice_1218_2nd.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +81,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Practice_1218_3rd.resx">
+      <DependentUpon>Practice_1218_3rd.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Practice_1218_2nd.resx">
       <DependentUpon>Practice_1218_2nd.cs</DependentUpon>
     </EmbeddedResource>
