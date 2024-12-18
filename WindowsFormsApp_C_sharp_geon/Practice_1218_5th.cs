@@ -20,7 +20,12 @@ namespace WindowsFormsApp_C_sharp_geon
 
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void button_input_Click(object sender, EventArgs e)
+        {
+            textBox_result.Text += "완료!";
+        }
+
+        private void Practice_1218_5th_Load(object sender, EventArgs e)
         {
 
         }

@@ -57,7 +57,7 @@
             // 
             // textBox_input
             // 
-            this.textBox_input.Location = new System.Drawing.Point(115, 139);
+            this.textBox_input.Location = new System.Drawing.Point(115, 133);
             this.textBox_input.Name = "textBox_input";
             this.textBox_input.Size = new System.Drawing.Size(463, 28);
             this.textBox_input.TabIndex = 0;
@@ -65,12 +65,13 @@
             // 
             // button_input
             // 
-            this.button_input.Location = new System.Drawing.Point(584, 139);
+            this.button_input.Location = new System.Drawing.Point(584, 133);
             this.button_input.Name = "button_input";
-            this.button_input.Size = new System.Drawing.Size(75, 23);
+            this.button_input.Size = new System.Drawing.Size(75, 29);
             this.button_input.TabIndex = 1;
             this.button_input.Text = "button1";
             this.button_input.UseVisualStyleBackColor = true;
+            this.button_input.Click += new System.EventHandler(this.button_input_Click);
             // 
             // Practice_1218_5th
             // 
@@ -84,6 +85,7 @@
             this.Name = "Practice_1218_5th";
             this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.Text = "Pracitce_1218_5th";
+            this.Load += new System.EventHandler(this.Practice_1218_5th_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
