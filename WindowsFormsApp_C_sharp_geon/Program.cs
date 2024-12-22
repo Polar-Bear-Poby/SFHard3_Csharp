@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
 namespace WindowsFormsApp_C_sharp_geon
 {
     internal static class Program
@@ -16,7 +15,7 @@ namespace WindowsFormsApp_C_sharp_geon
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Practice_1219_1st());
+            Application.Run(new Practice_1219_3rd());
         }
     }
 }
