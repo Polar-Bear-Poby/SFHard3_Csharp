@@ -50,6 +50,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Practice_0102.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Practice_0102.Designer.cs">
+      <DependentUpon>Practice_0102.cs</DependentUpon>
+    </Compile>
     <Compile Include="Practice_1219_3rd.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -103,12 +109,6 @@
     </Compile>
     <Compile Include="Practice_1220_2nd.Designer.cs">
       <DependentUpon>Practice_1220_2nd.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Practice_1226.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Practice_1226.Designer.cs">
-      <DependentUpon>Practice_1226.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

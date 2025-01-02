@@ -2,7 +2,7 @@
 
 namespace WindowsFormsApp_C_sharp_geon
 {
-    partial class Practice_1226
+    partial class Practice_0102
     {
         /// <summary>
         /// Required designer variable.
@@ -34,7 +34,7 @@ namespace WindowsFormsApp_C_sharp_geon
             this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Practice_1226";
+            this.Text = "Practice_0102";
         }
 
         #endregion
