@@ -56,6 +56,30 @@
     <Compile Include="Practice_0102.Designer.cs">
       <DependentUpon>Practice_0102.cs</DependentUpon>
     </Compile>
+    <Compile Include="Practice_0102_5rd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Practice_0102_5rd.Designer.cs">
+      <DependentUpon>Practice_0102_5rd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Practice_0103_3rd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Practice_0103_3rd.Designer.cs">
+      <DependentUpon>Practice_0103_3rd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Practice_0106.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Practice_0106.Designer.cs">
+      <DependentUpon>Practice_0106.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Practice_0106_3rd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Practice_0106_3rd.Designer.cs">
+      <DependentUpon>Practice_0106_3rd.cs</DependentUpon>
+    </Compile>
     <Compile Include="Practice_1219_3rd.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -112,6 +136,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Practice_0106.resx">
+      <DependentUpon>Practice_0106.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Practice_0106_3rd.resx">
+      <DependentUpon>Practice_0106_3rd.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Practice_1219_3rd.resx">
       <DependentUpon>Practice_1219_3rd.cs</DependentUpon>
     </EmbeddedResource>
